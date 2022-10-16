@@ -1,0 +1,63 @@
+.wrapper-full-5 {
+  grid-template-columns: repeat(auto-fill, minmax(308px, 1fr));
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.wrapper-full-5 .card-00001 {
+  display: grid;
+  grid-template-rows: 260px 135px 34px;
+}
+.wrapper-full-5 .card-00001 .avatar-cours {
+  background-image: url(/image/emily-bernal-v9vII5gV8Lw-unsplash.jpg);
+  background-size: cover;
+  border-radius: 6px;
+}
+.wrapper-full-5 .card-00001 .avatar-cours img {
+  width: 80px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.wrapper-full-5 .card-00001 .info {
+  margin-left: 20px;
+  font-weight: bold;
+  margin-right: 20px;
+}
+.wrapper-full-5 .card-00001 button {
+  width: 100px;
+  height: 35px;
+  margin-top: 20px;
+  margin-left: 7rem;
+}
+.wrapper-full-5 .card-00001 .price {
+  margin-left: 20px;
+  margin-right: 20px;
+  border-top: 1px solid rgba(128, 128, 128, 0.288);
+}
+.wrapper-full-5 .c-2 .avatar-cours{
+  background-image: url(/image/nasa-Q1p7bh3SHj8-unsplash.jpg);
+}
+.wrapper-full-5 .c-3 .avatar-cours{
+  background-image: url(/image/taras-shypka-iFSvn82XfGo-unsplash.jpg);
+}
+.wrapper-full-5 .c-4 .avatar-cours{
+  background-image: url(/image/hitesh-choudhary-D9Zow2REm8U-unsplash.jpg);
+}
+.wrapper-full-5 .c-5 .avatar-cours{
+  background-image: url(/image/ben-griffiths-2Rd-hwT2xQ0-unsplash.jpg);
+}
+.wrapper-full-5 .c-6 .avatar-cours{
+  background-image: url(/image/nasa-Q1p7bh3SHj8-unsplash.jpg);
+}
+.wrapper-full-5 .c-7 .avatar-cours{
+  background-image: url(/image/taras-shypka-iFSvn82XfGo-unsplash.jpg);
+}
+.wrapper-full-5 .c-8 .avatar-cours{
+  background-image: url(/image/axel-ruffini-iulnjpZyWnc-unsplash.jpg);
+}
+.wrapper-full-5 .c-9 .avatar-cours{
+  background-image: url(/image/ben-griffiths-2Rd-hwT2xQ0-unsplash.jpg);
+}
+.wrapper-full-5 .c-10 .avatar-cours{
+  background-image: url(/image/taras-shypka-iFSvn82XfGo-unsplash.jpg);
+}

@@ -1,0 +1,171 @@
+.wrapper .card-01 {
+  display: grid;
+  grid-template-rows: 83px 93px 1fr;
+}
+
+.wrapper .card-01 textarea {
+  width: 94%;
+  outline-style: auto;
+  outline-color: #eee;
+  outline-width: 1px;
+}
+
+/* The switch - the box around the slider */
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 80px;
+  height: 34px;
+}
+
+/* Hide default HTML checkbox */
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+input:checked + .slider {
+  background-color: #2196f3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196f3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(47px);
+}
+
+/* Rounded sliders */
+
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+/* ----------------------------------------------End card (1) -------------------------------------------*/
+
+.wrapper .card-02 form .email {
+  width: 29.4rem;
+  background-color: #eee;
+}
+
+.wrapper .card-02 form button {
+  background-color: #fff;
+  color: var(--blue-color--);
+}
+
+/* ----------------------------------------------End card (2) -------------------------------------------*/
+
+.wrapper .card-03 {
+  display: grid;
+}
+.wrapper .card-03 button {
+  position: relative;
+  height: 40px;
+  width: 83px;
+}
+.wrapper .card-03 .line-after {
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  min-height: 140px;
+  line-height: 1.8;
+  padding-top: 32px;
+}
+
+/* ----------------------------------------------End card (3) -------------------------------------------*/
+.wrapper .card-04 .social {
+  display: grid;
+  grid-template-columns: 65px 1fr;
+}
+.wrapper .card-04 .social .social-img {
+  display: grid;
+  gap: 31px;
+  align-items: center;
+  justify-items: end;
+}
+.wrapper .card-04 .social .social-img img {
+  display: flex;
+  justify-content: space-between;
+  width: 62%;
+}
+.wrapper .card-04 .social .social-link form {
+  display: grid;
+  gap: 2rem;
+}
+/* ----------------------------------------------End card (4) -------------------------------------------*/
+.wrapper .card-06 .info-buck span {
+  display: grid;
+  grid-template-rows: 67px 17px;
+  gap: 1rem;
+  justify-items: center;
+  align-items: center;
+  margin-top: 25px;
+  border-radius: 10px;
+  border: 1px solid #eee;
+  width: 182px;
+  height: 103px;
+}
+.wrapper .card-06 .info-buck {
+  border-top: 1px solid #eee;
+  min-height: 140px;
+  line-height: 1.8;
+  padding-top: 2px;
+}
+/* ----------------------------------------------End card (6) -------------------------------------------*/
+/* ----------------------------------------------Start Media -------------------------------------------*/
+@media (max-width: 767px) {
+  .wrapper .card-01 .info h2 {
+    font-size: 18px;
+    margin-right: 10.5rem;
+  }
+  .wrapper .card-02 .intro form p {
+    text-align: left;
+  }
+  .wrapper .card-02 form .email {
+    width: 84%;
+  }
+  .wrapper .card-03 .line-after::after {
+    width: 74%;
+  }
+  .wrapper .card-03 .line-after span p {
+    margin-right: 75px;
+  }
+  .wrapper .card-03 h2:nth-child(2) {
+    background-color: #2196f3;
+  }
+}

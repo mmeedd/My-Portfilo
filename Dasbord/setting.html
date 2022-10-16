@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Setting</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="stylesheet" href="style/feramWork.css" />
+    <link rel="stylesheet" href="style/dashbord.css" />
+    <link rel="stylesheet" href="style/setting.css">
+</head>
+
+<body>
+    <div class="page d-flex">
+        <div class="sidebare bg-white p-20 p-relative">
+            <h3 class="p-relative text-c mt-0">M7MED</h3>
+            <ul class="p-0 list-none">
+                <li>
+                    <a class="d-flex align-center fs-14 c-black rad-6 p-10" href="Dashbord.html">
+                        <i class="fa-sharp fa-solid fa-house fa-fw"></i><span>Dashbord</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a class="active d-flex align-center fs-14 c-black rad-6 p-10" href="setting.html">
+                        <i class="fa-sharp fa-solid fa-gear fa-fw"></i><span>Setting</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="d-flex align-center fs-14 c-black rad-6 p-10" href="profile.html">
+                        <i class="fa-solid fa-user"></i>
+                        <span>Profile</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="d-flex align-center fs-14 c-black rad-6 p-10" href="project.html">
+                        <i class="fa-sharp fa-solid fa-diagram-project fa-fw"></i>
+                        <span>Project</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="d-flex align-center fs-14 c-black rad-6 p-10" href="courses.html">
+                        <i class="fa-sharp fa-solid fa-graduation-cap fa-fw"></i>
+                        <span>Courses</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="d-flex align-center fs-14 c-black rad-6 p-10" href="index.html">
+                        <i class="fa-sharp fa-solid fa-users"></i>
+                        <span>Ffinds</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="d-flex align-center fs-14 c-black rad-6 p-10" href="index.html">
+                        <i class="fa-sharp fa-solid fa-file fa-fw"></i>
+                        <span>Files</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="d-flex align-center fs-14 c-black rad-6 p-10" href="index.html">
+                        <i class="fa-sharp fa-solid fa-earth-americas fa-fw"></i><span>Plane</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <!-- -----------------------End Sidebare------------------------- -->
+
+        <div class="content w-full">
+            <div class="head bg-white p-15 between-flex">
+                <div class="search p-relative">
+                    <input class="p-10" type="search" placeholder="type keyword" />
+                </div>
+                <div class="icons d-flex align-center">
+                    <span class="notification p-relative"><i class="fa-sharp fa-regular fa-bell"></i></span>
+                    <img src="image/avatar (5).ico" alt="avtar" />
+                </div>
+            </div>
+
+            <h1 class="p-relative">Setting</h1>
+            <div class="wrapper d-grid gap-20">
+                <!-- -----------------------Start Cards------------------------- -->
+
+                <div class="card-01 bg-white rad-10 text-c-mobile block-mobile">
+                    <div>
+                        <h2 class="ml-20> Site Control"></h2>
+                        <p class="ml-20">Control The Website If Three Is Mainenace</p>
+                    </div>
+
+                    <div class="info intro p-20 d-flex between-flex">
+                        <div>
+                            <h2>Website Control</h2>
+                            <p>Open/Close Website And Type The Reason</p>
+                        </div>
+
+                        <span>
+                            <label class="switch">
+                                <input type="checkbox">
+                            </label>
+
+                            <!-- Rounded switch -->
+                            <label class="switch">
+                                <input type="checkbox">
+                                <span class="slider round"></span>
+                            </label>
+                        </span>
+                    </div>
+                    <div><textarea class="ml-20 rad-6 mr-20" name="Massaeg" placeholder="Message" rows="7"></textarea>
+                    </div>
+                </div>
+
+                <!--------------------------------- End card (1)--------------------------------------- -->
+
+
+                <div class="card-02 bg-white rad-6 text-c-mobile block-mobile">
+                    <div class="ml-20">
+                        <h2> Genral Info</h2>
+                        <p>Genral aianformation About Your Acount</p>
+                    </div>
+
+                    <div class="intro p-20 d-flex between-flex">
+                        <form class="w-full">
+                            <p>Frist Name</p>
+                            <input class="rad-6 w-full height-40" type="text" name="Frist-Name"
+                                placeholder="Frist Name">
+                            <p>Last Name</p>
+                            <input class="rad-6 w-full height-40" type="text" name="last-Name" placeholder="Last Name">
+                            <p>Email</p>
+                            <input class="email rad-6  height-40" type="email" name="email" placeholder="o@nn.sa">
+                            <button class="height-35">Change</button>
+                        </form>
+                    </div>
+                </div>
+
+
+                <!--------------------------------- End card (2)--------------------------------------- -->
+
+
+                <div class="card-03 bg-white rad-6 text-c-mobile block-mobile">
+                    <div class="ml-20">
+                        <h2> Security Info</h2>
+                        <p>Security Information About Your Acount</p>
+                    </div>
+
+                    <div class="intro p-20 d-flex between-flex">
+                        <h2>Password</h2>
+                        <button>Change</button>
+                    </div>
+
+                    <div class=" line-after between-flex ml-20 mr-20">
+                        <span >
+                            <h2 class="mr-125-mop">Two-Factor Authentication</h2>
+                            <p>Enable/Disenable The Feature</p>
+                        </span>
+
+                        <span class="txt-end">
+                            <label class="switch">
+                                <input type="checkbox">
+                            </label>
+
+                            <!-- Rounded switch -->
+                            <label class="switch">
+                                <input type="checkbox">
+                                <span class="slider round"></span>
+                            </label>
+                        </span>
+                    </div>
+                    <div class="between-flex ml-20 mr-20">
+                        <span>
+                            <h2 class="mr-125-mop">Device</h2>
+                            <p>Check The Login Device List</p>
+                        </span>
+
+                        <span><button class="bg-eee color-b">Device</button></span>
+                    </div>
+
+                </div>
+
+                <!--------------------------------- End card (3)--------------------------------------- -->
+
+
+
+                <div class="card-04 bg-white rad-6 text-c-mobile block-mobile">
+
+                    <h3 class="ml-20">Social Info</h3>
+                    <p class="ml-20">Socila Media Information</p>
+                    <article class="social">
+
+                        <div class="social-img">
+                            <img src="image/twitter.ico" alt="">
+                            <img src="image/facebook.ico" alt="">
+                            <img src="image/instagram.ico" alt="">
+                            <img src="image/linkedin.ico" alt="">
+                        </div>
+                        <div class="social-link mr-20">
+                            <form>
+                                <input class="rad-6 height-40 bg-eee o-l" type="text" name="Twitter"
+                                    placeholder="Twitter Use Name">
+                                <input class="rad-6 height-40 bg-eee o-l" type="text" name="Facebook"
+                                    placeholder="Facebook Use Name">
+                                <input class="rad-6 height-40 bg-eee o-l" type="text" name="Instagram"
+                                    placeholder="Instagram Use Name">
+                                <input class="rad-6 height-40 bg-eee o-l" type="text" name="Linkedin"
+                                    placeholder="Linkedin Use Name">
+                            </form>
+                        </div>
+                    </article>
+                </div>
+
+                <!--------------------------------- End card (4)--------------------------------------- -->
+
+                <div class="card-05 bg-white rad-6 text-c-mobile block-mobile">
+                    <h2 class="ml-20">Widgets Control</h2>
+                    <p class="ml-20">Show/Hide Widgets</p>
+                    <label class="d-grid ml-20">
+                        <span class="d-flex"><input class="width-20px mr-20" type="checkbox" name="" id="">
+                            <h3>Quick Draft</h3>
+                        </span>
+                        <span class="d-flex"><input class="width-20px mr-20" type="checkbox" name="" id="">
+                            <h3>Yearly Targets</h3>
+                        </span>
+                        <span class="d-flex"><input class="width-20px mr-20" type="checkbox" name="" id="">
+                            <h3>Tickets Statistics</h3>
+                        </span>
+                        <span class="d-flex"><input class="width-20px mr-20" type="checkbox" name="" id="">
+                            <h3>Last News</h3>
+                        </span>
+                        <span class="d-flex"> <input class="width-20px mr-20" type="checkbox" name="" id="">
+                            <h3>Last Tasks</h3>
+                        </span>
+                        <span class="d-flex"><input class="width-20px mr-20" type="checkbox" name="" id="">
+                            <h3>Top Search Items</h3>
+                        </span>
+
+
+
+
+
+                    </label>
+                </div>
+
+                <!--------------------------------- End card (5)--------------------------------------- -->
+
+
+
+
+                <div class="card-06 bg-white rad-6 text-c-mobile block-mobile">
+                    <h3 class="ml-20">Backup Manager</h3>
+                    <p class="ml-20">Contril Backup Time And Location</p>
+                    <label class="d-grid ml-20">
+
+                        <span class="d-flex"><input class="width-20px mr-20" type="radio" name="" id="">
+                            <h3>Daily</h3>
+                        </span>
+                        <span class="d-flex"><input class="width-20px mr-20" type="radio" name="" id="">
+                            <h3>Weekly</h3>
+                        </span>
+                        <span class="d-flex"><input class="width-20px mr-20" type="radio" name="" id="">
+                            <h3>Monthly</h3>
+                        </span>
+                    </label>
+                    <div class=" info-buck between-flex ml-20 mr-20 mb-20">
+                        <span>
+                            <i class=" fa-sharp fa-solid fa-hard-drive width-20"></i>
+                            <h3>Megaman</h3>
+                        </span>
+                        <span>
+                            <i class="fa-sharp fa-solid fa-hard-drive width-20"></i>
+
+                            <h3>Zero</h3>
+                        </span>
+                        <span>
+                            <i class="fa-sharp fa-solid fa-hard-drive width-20"></i>
+
+                            <h3>Sigma</h3>
+                        </span>
+                    </div>
+                </div>
+
+                <!--------------------------------- End card (6)--------------------------------------- -->
+
+
+
+            </div>
+
+        </div>
+
+
+
+
+    </div>
+    </div>
+    </div>
+</body>
+
+</html>

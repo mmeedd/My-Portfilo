@@ -1,0 +1,103 @@
+.wrapper-plane {
+  grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.wrapper-plane .c-1 .main-header {
+  border: 5px solid var(--green-color--);
+  margin: 16px;
+}
+.wrapper-plane .c-1 .header {
+  background-color: var(--green-color--);
+  border: 5px solid white;
+  color: white;
+  display: grid;
+  grid-template-rows: 65px 68px;
+  height: 152px;
+  justify-items: center;
+}
+.wrapper-plane .card-0001 .main-header .header h2 {
+  padding-top: 31px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+.wrapper-plane .card-0001 .main-header .header p {
+  color: white;
+  font-size: 22px;
+  position: absolute;
+}
+.wrapper-plane .card-0001 .info img {
+  width: 12px;
+  height: 11px;
+  margin-right: 12px;
+  margin-top: 24px;
+}
+.wrapper-plane .card-0001 .info i {
+  margin-top: 24px;
+  color: gray;
+}
+
+.wrapper-plane .card-0001 .info span {
+  border-bottom: 1px solid #eee;
+  display: grid;
+  grid-template-columns: 28px 1fr 20px;
+}
+.wrapper-plane .card-0001 .join-bt {
+  padding: 20px;
+}
+.wrapper-plane .c-1 .join-bt button {
+  padding: 11px;
+  background: var(--green-color--);
+}
+
+.wrapper-plane .c-2 .main-header {
+  border: 5px solid var(--blue-color--);
+  margin: 16px;
+}
+.wrapper-plane .c-2 .header {
+  background-color: var(--blue-color--);
+  border: 5px solid white;
+  color: white;
+  display: grid;
+  grid-template-rows: 65px 68px;
+  height: 152px;
+  justify-items: center;
+}
+.wrapper-plane .c-2 .join-bt button {
+  padding: 11px;
+  background: var(--blue-color--);
+}
+.wrapper-plane .c-3 .main-header {
+  border: 5px solid orange;
+  margin: 16px;
+}
+.wrapper-plane .c-3 .header {
+  background-color: orange;
+  border: 5px solid white;
+  color: white;
+  display: grid;
+  grid-template-rows: 65px 68px;
+  height: 152px;
+  justify-items: center;
+}
+.wrapper-plane .c-3 .join-bt p {
+  padding: 11px;
+  text-align: center;
+}
+
+@media (max-width: 767px) {
+  .wrapper-plane .c-1 .join-bt button,
+  .wrapper-plane .c-2 .join-bt button {
+    width: 50%;
+    letter-spacing: 6px;
+  }
+}
+@media (max-width: 1200px) {
+  .wrapper-plane .c-1 .join-bt button,
+  .wrapper-plane .c-2 .join-bt  button{
+    width: 25%;
+    letter-spacing: 6px;
+
+  }
+}

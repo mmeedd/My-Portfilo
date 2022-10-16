@@ -1,0 +1,55 @@
+.wrapper-full-5 {
+  grid-template-columns: repeat(auto-fill, minmax(310px, 1fr));
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.wrapper-full-5 .card-00001 {
+  display: grid;
+  grid-template-rows: -1px 10px 260px 135px 34px;
+}
+.wrapper-full-5 .card-00001 .icon-call i {
+  background-color: #eee;
+  border-radius: 50%;
+  padding: 12px;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.wrapper-full-5 .card-00001 .icon-call i:nth-child(2) {
+  margin-left: 10px;
+}
+
+.wrapper-full-5 .card-00001 .avatar-cours {
+  align-self: center;
+  text-align: center;
+}
+.wrapper-full-5 .card-00001 .avatar-cours img {
+  width: 130px;
+}
+.wrapper-full-5 .card-00001 .info {
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.wrapper-full-5 .card-00001 .info span {
+  display: flex;
+}
+.wrapper-full-5 .card-00001 .info span i {
+  margin-top: 17px;
+  margin-right: 10px;
+}
+.wrapper-full-5 .card-00001 .joined {
+  display: flex;
+  justify-content: space-between;
+  justify-items: center;
+}
+.wrapper-full-5 .card-00001 .joined button:nth-child(2) {
+  background-color: red;
+  margin-right: 20px;
+}
+.wrapper-full-5 .card-00001 .joined button {
+  padding: 9px;
+  margin-top: 10px;
+  margin-bottom: 21px;
+}

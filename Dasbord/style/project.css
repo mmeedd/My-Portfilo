@@ -1,0 +1,71 @@
+.wrapper .card-0001 .avatar img {
+  margin-bottom: 20px;
+}
+.wrapper .card-0001 .avatar img:not(:first-child) {
+  margin-left: -20px;
+  width: 35px;
+}
+.wrapper .card-0001 .skills {
+  display: flex;
+  justify-content: end;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+}
+.wrapper .card-0001 .skills h5 {
+  background-color: #eee;
+  padding: 8px;
+  margin-left: 5px;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.wrapper .card-0001 .price span::before {
+  content: "";
+  background-color: #eee;
+  width: 15rem;
+  height: 5px;
+  position: absolute;
+  border-radius: 10px;
+}
+.wrapper .card-0001 .price span::after {
+  content: "";
+  background-color: red;
+  width: 7.5rem;
+  height: 5px;
+  position: absolute;
+  border-radius: 10px;
+}
+
+.wrapper .card-0001 .price .c-2::after {
+  background-color: green;
+  width: 9rem;
+}
+.wrapper .card-0001 .price .c-3::after {
+  background-color: blue;
+  width: 15rem;
+}
+.wrapper .card-0001 .price .c-4::after {
+  background-color: green;
+  width: 9rem;
+}
+.wrapper .card-0001 .price .c-5::after {
+  background-color: green;
+  width: 12rem;
+}
+.wrapper .card-0001 .price .c-6::after {
+  background-color: red;
+  width: 6rem;
+}
+.wrapper .card-0001 .price .c-7::after {
+  background-color: green;
+  width: 11rem;
+}
+.wrapper .card-0001 .price .c-8::after {
+  background-color: green;
+  width: 9.5rem;
+}
+.wrapper .card-0001 .price .c-9::after {
+  background-color: green;
+  width: 14rem;
+}
+
